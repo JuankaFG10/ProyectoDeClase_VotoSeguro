@@ -1,0 +1,6 @@
+@VotoSeguro_HostAddress = http://localhost:5280
+
+GET {{VotoSeguro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

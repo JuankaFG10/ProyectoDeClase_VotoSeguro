@@ -16,7 +16,8 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5280",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/juanfunes/RiderProjects/VotoSeguro/VotoSeguro/config/firebase-credentials.json"
       }
     },
     "https": {
@@ -26,7 +27,8 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7267;http://localhost:5280",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/juanfunes/RiderProjects/VotoSeguro/VotoSeguro/config/firebase-credentials.json"
       }
     },
     "IIS Express": {

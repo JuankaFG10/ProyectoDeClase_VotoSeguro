@@ -4,18 +4,20 @@ namespace VotoSeguro.DTOs;
 
 public class CreateTaskDto
 {
-    [Required(ErrorMessage = "El campo es requerido")]
-    [MaxLength(100, ErrorMessage = "El campo no puede exceder los 1000 caracteres")]
+    [Required (ErrorMessage ="El campo es requerido")]
+    [MaxLength(200,ErrorMessage ="El campo titulo no puede exceder los 1000 caracteres")]
     public string Title { get; set; }
     
-    [Required(ErrorMessage = "El campo es requerido")]
-    [MaxLength(1000, ErrorMessage = "El campo descripcion no puede quedar vacio")]
+    [Required (ErrorMessage ="El campo es requerido")]
+    [MaxLength(1000,ErrorMessage ="El campo descripcion no puede exceder los 1000 caracteres")]
     public string Description { get; set; }
     
-    [Required(ErrorMessage = "El campo es requerido")]
-    public string AssignedIdToUser { get; set; }
-    public DateTime? DueDate { get; set; }
+    [Required (ErrorMessage ="El campo es requerido")]
+    public string AssignedToUserId { get; set; }
     
-    [Required(ErrorMessage = "El campo es requerido")]
-    [RegularExpression(pattern:"(low|medium|high)$", ErrorMessage = "Prioridad Invalida")]
+    public DateTime?  DueDate { get; set; }
+    
+    [Required (ErrorMessage ="El campo es requerido")]
+    [RegularExpression("(low|medium|high)$", ErrorMessage ="Prioridad invalida")]
     public string Priority { get; set; }
+}

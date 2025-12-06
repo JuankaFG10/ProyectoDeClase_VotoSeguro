@@ -16,6 +16,9 @@ namespace VotoSeguro.Models
         public string Description { get; set; } = string.Empty;
         
         [FirestoreProperty]
+        public string AssignedToUserName { get; set; } = string.Empty;
+        
+        [FirestoreProperty]
         public string AssignedToUserId { get; set; } = string.Empty;
         
         [FirestoreProperty]

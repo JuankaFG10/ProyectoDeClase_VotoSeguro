@@ -5,7 +5,7 @@ using ProyectoClaseQ4.Services;
 using VotoSeguro.DTOs;
 using VotoSeguro.Services;
 
-namespace ProyectoClaseQ4.Controllers
+namespace VotoSeguro.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

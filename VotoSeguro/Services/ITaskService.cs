@@ -1,7 +1,7 @@
 using VotoSeguro.DTOs;
 using VotoSeguro.Models;
 
-namespace ProyectoClaseQ4.Services
+namespace VotoSeguro.Services
 {
     public interface ITaskService
     {

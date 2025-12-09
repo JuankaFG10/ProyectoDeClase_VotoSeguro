@@ -2,7 +2,7 @@ using VotoSeguro.DTOs;
 using VotoSeguro.Models;
 using VotoSeguro.Services;
 
-namespace ProyectoClaseQ4.Services
+namespace VotoSeguro.Services
 {
     public class TaskService : ITaskService
     {
